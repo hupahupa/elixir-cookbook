@@ -11,7 +11,6 @@ depends "git"
 depends "github"
 depends "erlang"
 depends "libarchive"
-depends "validation", ">= 0.2.0"
 
 grouping "elixir",
   title: "Elixir"
