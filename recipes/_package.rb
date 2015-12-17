@@ -8,7 +8,7 @@
 case node['platform_family']
 when 'debian'
   node.normal[:apt][:compile_time_update] = true
-  node.normal[:erlang][:esl][:version] = "1:18.0"
+  node.normal[:erlang][:esl][:version] = "1:18.0.3"
 when 'rhel'
   node.normal[:erlang][:esl][:version] = "18.0-1.el6"
 end
